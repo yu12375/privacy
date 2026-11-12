@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Privacy Policy and Support for Frosthost: Hero Siege — a fully offline single-player strategy game that collects no data.">
+<title>Privacy Policy &amp; Support · Frosthost: Hero Siege</title>
+<style>
+  :root{
+    --ink:#1c2420;
+    --ink-2:#4b5651;
+    --ink-3:#7d8783;
+    --line:#e4e2db;
+    --paper:#f7f5f0;
+    --card:#ffffff;
+    --accent:#2d6a4f;
+    --accent-soft:#eaf1ec;
+    --gold:#b8862b;
+    --serif:Georgia,"Times New Roman","Songti SC","SimSun",serif;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;}
+  [hidden]{display:none !important;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-size:16px;
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 22px;}
+
+  header{
+    background:radial-gradient(120% 140% at 12% 0%, #245243 0%, #14352c 55%, #0f2721 100%);
+    color:#f3f1ea;
+    padding:52px 0 40px;
+    position:relative;
+    overflow:hidden;
+  }
+  header::after{
+    content:"";
+    position:absolute;
+    right:-90px;top:-70px;
+    width:320px;height:320px;
+    border-radius:50%;
+    border:1px solid rgba(243,241,234,.09);
+    box-shadow:0 0 0 40px rgba(243,241,234,.035), 0 0 0 90px rgba(243,241,234,.02);
+  }
+  h1{
+    font-family:var(--serif);
+    font-size:34px;
+    line-height:1.28;
+    margin:0 0 10px;
+    font-weight:400;
+    letter-spacing:-.2px;
+    position:relative;
+    z-index:1;
+  }
+  h1 em{font-style:normal;color:#a9d3ba;}
+  .tagline{
+    font-size:15px;
+    color:#a9b8b0;
+    margin:0;
+    letter-spacing:.02em;
+    position:relative;
+    z-index:1;
+  }
+
+  .intro{
+    font-size:16.5px;
+    color:var(--ink-2);
+    margin:-26px 0 34px;
+    padding:26px 30px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:3px solid var(--accent);
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(20,40,32,.04);
+    position:relative;
+    z-index:3;
+  }
+  .intro strong{color:var(--ink);}
+
+  section.card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:38px 42px 44px;
+    margin-bottom:26px;
+    box-shadow:0 1px 3px rgba(20,40,32,.045);
+  }
+  h2{
+    font-family:var(--serif);
+    font-size:26px;
+    font-weight:400;
+    margin:0 0 6px;
+    letter-spacing:-.2px;
+  }
+  .updated{
+    font-size:13.5px;
+    color:var(--ink-3);
+    margin:0 0 8px;
+    padding-bottom:22px;
+    border-bottom:1px solid var(--line);
+    letter-spacing:.01em;
+  }
+  .item{
+    padding:26px 0 2px;
+    border-bottom:1px solid var(--line);
+  }
+  .item:last-of-type{border-bottom:0;padding-bottom:0;}
+  h3{
+    font-size:17px;
+    font-weight:600;
+    margin:0 0 10px;
+    display:flex;
+    align-items:baseline;
+    gap:12px;
+    line-height:1.5;
+  }
+  .num{
+    flex:0 0 auto;
+    font-family:var(--serif);
+    font-size:13px;
+    color:var(--accent);
+    background:var(--accent-soft);
+    width:24px;height:24px;
+    border-radius:6px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    position:relative;
+    top:-1px;
+  }
+  p{margin:0 0 12px;color:var(--ink-2);}
+  ul{margin:0 0 14px;padding-left:20px;color:var(--ink-2);}
+  li{margin-bottom:7px;}
+  li::marker{color:#a8b3a9;}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(45,106,79,.35);}
+  a:hover{border-bottom-color:var(--accent);}
+  code{
+    font-family:inherit;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:1px 6px;
+    font-size:.94em;
+    color:var(--ink-2);
+  }
+
+  .faq{
+    padding:24px 0 6px;
+    border-bottom:1px solid var(--line);
+  }
+  .faq:last-of-type{border-bottom:0;padding-bottom:0;}
+  .q{
+    font-size:16.5px;
+    font-weight:600;
+    margin:0 0 10px;
+    color:var(--ink);
+    line-height:1.6;
+  }
+  .q::before{
+    content:"Q";
+    font-family:var(--serif);
+    color:var(--gold);
+    margin-right:9px;
+    font-size:14px;
+    font-weight:700;
+  }
+  .faq ol{margin:0 0 14px;padding-left:22px;color:var(--ink-2);}
+  .faq ol li{margin-bottom:6px;}
+
+  .contact{
+    margin-top:6px;
+    background:linear-gradient(180deg,#f2f7f3 0%,#eaf1ec 100%);
+    border:1px solid #d6e4da;
+    border-radius:12px;
+    padding:28px 30px;
+    text-align:center;
+  }
+  .contact p{margin:0 0 14px;color:var(--ink-2);font-size:14.5px;}
+  .contact .mail{
+    display:inline-block;
+    background:var(--accent);
+    color:#fff;
+    border:0;
+    border-radius:100px;
+    padding:11px 26px;
+    font-size:14.5px;
+    font-weight:600;
+    letter-spacing:.01em;
+    transition:.18s ease;
+    box-shadow:0 2px 8px rgba(45,106,79,.22);
+  }
+  .contact .mail:hover{
+    background:#245743;
+    box-shadow:0 4px 14px rgba(45,106,79,.3);
+  }
+  .contact .hint{
+    margin:14px 0 0;
+    font-size:12.5px;
+    color:var(--ink-3);
+  }
+
+  footer{
+    text-align:center;
+    padding:34px 22px 64px;
+    color:var(--ink-3);
+    font-size:13px;
+    line-height:2;
+  }
+  footer .dot{margin:0 8px;opacity:.45;}
+  footer .altlink{font-size:12.5px;}
+
+  @media (max-width:640px){
+    header{padding:38px 0 34px;}
+    h1{font-size:25px;}
+    .tagline{font-size:14px;}
+    .intro{margin:-20px 0 26px;padding:20px 22px;font-size:15.5px;}
+    section.card{padding:28px 22px 32px;border-radius:10px;}
+    h2{font-size:22px;}
+    h3{font-size:16px;gap:10px;}
+    .faq{padding:20px 0 4px;}
+    .contact{padding:22px 20px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Frosthost: <em>Hero Siege</em></h1>
+    <p class="tagline">Privacy Policy &amp; Support</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <p class="intro">
+    <strong>Frosthost: Hero Siege</strong> is a relaxing single-player strategy game. Players take on
+    the role of a squad commander, assembling an adventure-styled hero team and engaging in battles
+    within snowy mountain valleys. It features a laid-back pace, suitable for casual short play sessions.
+    <strong>The game works completely offline.</strong> Below you will find how your data is handled,
+    plus answers to common questions.
+  </p>
+
+  <section class="card">
+    <h2>Privacy Policy</h2>
+    <p class="updated">Last updated: November 12, 2026</p>
+
+    <div class="item">
+      <h3><span class="num">1</span>We Don't Collect Anything</h3>
+      <p>
+        Frosthost: Hero Siege runs entirely on your device. We do not collect, upload, store,
+        or share any personal information, usage data, photos, or game progress with us or any third party.
+      </p>
+      <ul>
+        <li>Your game progress and settings are processed locally and never leave your device.</li>
+        <li>
+          Progress you make stays in the game's local storage. You can delete it anytime, and
+          uninstalling the game removes everything.
+        </li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">2</span>Device Permissions</h3>
+      <p>
+        Frosthost: Hero Siege does not request access to your camera, photo library, microphone,
+        contacts, or location. If a future update adds a feature that needs such access, we will ask for
+        your consent first and update this policy.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">3</span>No Third-Party Services</h3>
+      <p>
+        Frosthost: Hero Siege does not use analytics, ads, crash-reporting, or cloud services
+        that would send data elsewhere.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">4</span>Children's Privacy</h3>
+      <p>
+        Frosthost: Hero Siege is safe for all ages and does not knowingly collect information
+        from anyone, including children under 13.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">5</span>Policy Updates</h3>
+      <p>
+        If this policy changes, we'll update the date above. Since no data is collected, changes will
+        only clarify how the game works.
+      </p>
+    </div>
+  </section>
+
+  <section class="card" id="support">
+    <h2>Support &amp; FAQ</h2>
+    <p class="updated">Everything you need to know to get started.</p>
+
+    <div class="faq">
+      <p class="q">What can I do in Frosthost: Hero Siege?</p>
+      <ul>
+        <li><strong>Build your squad:</strong> tap <code>UNITS</code> at the bottom left to see your deployed and undeployed heroes, and choose who joins the fight.</li>
+        <li><strong>Push through stages:</strong> tap <code>BATTLE</code> at the bottom right, pick a stage on the chapter map, check its TOTAL CP and star goals, then tap <code>START</code>.</li>
+        <li><strong>Deploy mid-battle:</strong> during a fight, tap a hero card at the bottom to send that hero onto the field. Each hero has its own cooldown bar on the card — once that bar fills up, the hero is ready to be deployed again.</li>
+        <li><strong>Cast abilities:</strong> tap the ability buttons along the bottom of the battlefield to turn the fight in your favour.</li>
+        <li><strong>Upgrade heroes:</strong> open a hero and use <code>UPGRADE</code>, <code>STAR UP</code> or <code>GEAR</code> to raise health, attack and defense.</li>
+        <li><strong>Earn rewards:</strong> clearing a stage grants crests, gems and gold, with extra stars for finishing at full HP.</li>
+      </ul>
+    </div>
+
+    <div class="faq">
+      <p class="q">Do I need the internet?</p>
+      <p>No. Everything runs offline.</p>
+    </div>
+
+    <div class="faq">
+      <p class="q">How do I start a battle?</p>
+      <ol>
+        <li>Tap <code>BATTLE</code> at the bottom right of the main screen.</li>
+        <li>Pick a stage on the chapter map and tap <code>START</code>.</li>
+        <li>Once the fight begins, tap a hero card at the bottom to deploy that hero. Every hero has its own cooldown bar on the card, so you can send the same hero in again as soon as it fills.</li>
+        <li>Keep an eye on the health bar above each deployed hero, and break through the enemy gate before the timer runs out — the gate's HP bar sits at the top of the screen.</li>
+      </ol>
+    </div>
+
+    <div class="faq">
+      <p class="q">How do I upgrade my hero and grow stronger?</p>
+      <ol>
+        <li>Tap <code>UNITS</code> at the bottom left and pick a hero.</li>
+        <li>Check the stat row: heart is health, sword is attack, shield is defense, and the number under the portrait is the hero's power.</li>
+        <li>Choose <code>UPGRADE</code> to spend gold and crests, <code>STAR UP</code> to push a hero to the next tier, or <code>GEAR</code> to equip parts.</li>
+        <li>Heroes that are not deployed cannot be upgraded — deploy them first if the upgrade button is locked.</li>
+      </ol>
+    </div>
+
+    <div class="faq">
+      <p class="q">What are crests, gold and gems for?</p>
+      <ul>
+        <li><strong>Gold</strong> (gold coin icon): the main currency for hero upgrades; the amount is shown in the top bar.</li>
+        <li><strong>Gems</strong> (purple crystal icon): a rarer currency used to unlock and speed up progression.</li>
+        <li><strong>Crests</strong> (blue emblem icon): upgrade material for heroes, mainly earned from stage rewards.</li>
+      </ul>
+    </div>
+
+    <div class="faq">
+      <p class="q">Is my progress saved?</p>
+      <p>
+        Yes. Your hero level, gold, gems and collected parts are all saved to local storage on your
+        device, so you can pick up where you left off. Uninstalling the game removes everything.
+      </p>
+    </div>
+
+    <div class="contact">
+      <p><strong>Found a bug or have a feature idea?</strong><br>
+      Send us the details — what happened, your device model, and a screenshot from the game if possible.</p>
+      <a class="mail" href="mailto:lishun@lspansen.shop">lishun@lspansen.shop</a>
+      <p class="hint">We read every message.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div>Frosthost: Hero Siege</div>
+    <div>
+      No cookies. No analytics. No tracking.
+      <span class="dot">·</span>
+      Last updated November 12, 2026
+    </div>
+    <div class="altlink"><a href="zh.html">中文版</a></div>
+  </footer>
+
+</div>
+
+</body>
+</html>
